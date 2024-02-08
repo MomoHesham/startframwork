@@ -1,0 +1,17 @@
+.item .overlaping {
+  background-color: #29b197e6;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.item{
+    cursor: pointer;
+}
+.item:hover .overlaping {
+  opacity: 1 ;
+}
+.customColorModal{
+    background-color: #1a96c740;
+}
+.customColorModal.show{
+    display: flex !important;
+}

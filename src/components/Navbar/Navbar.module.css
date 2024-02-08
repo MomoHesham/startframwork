@@ -1,0 +1,7 @@
+.myNavBar {
+  padding: 1.5rem !important;
+  transition: all 0.5s;
+}
+.myNavBar.scrollMenu {
+  padding: 0.5rem !important;
+}
