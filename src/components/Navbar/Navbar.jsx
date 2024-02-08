@@ -9,11 +9,11 @@ export default function Navbar() {
   const { pathname } = useLocation();
   const [scrolltoop, setscrolltoop] = useState(false);
   useEffect(() => {
-    if (pathname === '/about') {
+    if (pathname === '/startframwork/about') {
       setaboutactive(true);
-    } else if (pathname === '/portfolio') {
+    } else if (pathname === '/startframwork/portfolio') {
       setportfolioactive(true)
-    } else if (pathname === '/contact') {
+    } else if (pathname === '/startframwork/contact') {
       setcontactactive(true)
     } else {
       setaboutactive(false);

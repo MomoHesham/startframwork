@@ -11,15 +11,11 @@ export default function App() {
 
   let routers = createBrowserRouter([
     {
-      path: '/',
+      path: 'startframwork/',
       element: <Layout />,
       children: [
         {
           index: true,
-          element: <Home />
-        },
-        {
-          path: 'startframwork/',
           element: <Home />
         },
         {
