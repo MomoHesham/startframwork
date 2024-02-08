@@ -19,6 +19,10 @@ export default function App() {
           element: <Home />
         },
         {
+          path: 'startframwork',
+          element: <Home />
+        },
+        {
           path: 'about',
           element: <About />
         },
