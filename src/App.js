@@ -19,15 +19,15 @@ export default function App() {
           element: <Home />
         },
         {
-          path: 'about',
+          path: 'about/',
           element: <About />
         },
         {
-          path: 'contact',
+          path: 'contact/',
           element: <Contact />
         },
         {
-          path: 'portfolio',
+          path: 'portfolio/',
           element: <Portfolio />
         },
         {
