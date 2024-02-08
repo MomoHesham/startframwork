@@ -19,7 +19,7 @@ export default function App() {
           element: <Home />
         },
         {
-          path: 'startframwork',
+          path: 'startframwork/',
           element: <Home />
         },
         {
